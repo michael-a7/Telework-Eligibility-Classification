@@ -48,5 +48,6 @@ job's **telework eligibility** and the following independent variables:
 - **Data Source:** USAJobs.gov API
 
 ## Acknowledgments
-- Data retrieved USAJobs.gov  
+- Data retrieved USAJobs.gov
+- Methodology for retrieving best n for K-Nearest Neigbors model was adapted from *Introduction to Machine Learning With Python (2017)* by Müller and Guido, (pg 38-40)
 - In addition, work and documentation for this project were created using assistance from AI tools (ChatGPT, Gemini). This assistance was mainly for the purpose of troubleshooting and ensuring adherence to best practices.
