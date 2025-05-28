@@ -43,11 +43,11 @@ job's **telework eligibility** and the following independent variables:
 - Produce accuracy scores, weighted precision scores, weighted recall scores, and weighted F1 scores for each model
 - Compare scores for each model 
 ## Tech Stack
-- **Backend:** Python
+- **Backend:** Python 3 (via [Google Colab](https://colab.research.google.com/))
 - **Libraries:** Pandas, Numpy, scikit-learn, Matplotlib, requests, json, category_encoders, re, datetime
-- **Data Source:** USAJobs.gov API
+- **Data Source:** [USAJobs.gov](https://www.usajobs.gov/) API
 
 ## Acknowledgments
-- Data retrieved USAJobs.gov
+- Data retrieved from [USAJobs.gov](https://www.usajobs.gov/) API
 - Methodology for retrieving best n for K-Nearest Neigbors model was adapted from *Introduction to Machine Learning With Python (2017)* by Müller and Guido, (pg 38-40)
 - In addition, work and documentation for this project were created using assistance from AI tools (ChatGPT, Gemini). This assistance was mainly for the purpose of troubleshooting and ensuring adherence to best practices.
