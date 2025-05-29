@@ -8,6 +8,8 @@ job's **telework eligibility** and the following independent variables:
 - Listed minimum pay
 - Whether the job is listed in multiple locations
 
+As demonstrated in the iPython file, the high accuracy and F1 scores of the **K-Nearest Neighbors** and **Decision Tree** indicate that  **certain job features (location, minimum pay, single/multi-state status) are provide meaningful predictive value in ensuring whether a job is telework eligible**.
+
 **The results of this analysis may be useful for job seekers, recruiters, and policy analysts in estimating fair wage values or identifying telework trends across states (among other use cases).**
 
 ---
@@ -47,8 +49,6 @@ The file `usa_jobs_2025-05-05_22-00-27.json` is included in this repository to e
 **6. Summary**
 - Compare scores for each model
 - Draw conclusions
-
-As demonstrated in the iPython file, the high accuracy and F1 scores of the **K-Nearest Neighbors** and **Decision Tree** indicate that  **certain job features (location, minimum pay, single/multi-state status) are provide meaningful predictive value in ensuring whether a job is telework eligible**.
 
 ## Tech Stack
 - **Backend:** Python 3 (via [Google Colab](https://colab.research.google.com/))
