@@ -17,6 +17,8 @@ job's **telework eligibility** and the following independent variables:
 - Retrieve data from the USAJobs.gov API
 - Compile the data into a Pandas dataframe
 
+The file `usa_jobs_2025-05-05_22-00-27.json` is included in this repository to ensure reproducibility of the analysis.
+
 **2. Dataset Cleaning**
 - Unnest nested values
 - Merge and derive necessary variables
@@ -41,7 +43,13 @@ job's **telework eligibility** and the following independent variables:
     - Decision Tree Classifier
     - Support Vector Machine
 - Produce accuracy scores, weighted precision scores, weighted recall scores, and weighted F1 scores for each model
-- Compare scores for each model 
+
+**6. Summary**
+- Compare scores for each model
+- Draw conclusions
+
+As demonstrated in the iPython file, the high accuracy and F1 scores of the **K-Nearest Neighbors** and **Decision Tree** indicate that  **certain job features (location, minimum pay, single/multi-state status) are provide meaningful predictive value in ensuring whether a job is telework eligible**.
+
 ## Tech Stack
 - **Backend:** Python 3 (via [Google Colab](https://colab.research.google.com/))
 - **Libraries:** Pandas, Numpy, scikit-learn, Matplotlib, requests, json, category_encoders, re, datetime
